@@ -1,7 +1,7 @@
 const initialState = {
   isMenu: localStorage.getItem("stateMenu")
     ? JSON.parse(localStorage.getItem("stateMenu"))
-    : true,
+    : false,
 };
 
 const stateMenu = (state = initialState, action) => {
